@@ -10,7 +10,7 @@ export const color = writable("");
 export const cardColor = writable("");
 export const InputColor = writable("");
 
-// update front
+// update front colors
 function updateThemeColors(currentMode) {
     if (currentMode === "dark") {
         color.set("#f1f1f1");            // main text
@@ -24,4 +24,3 @@ function updateThemeColors(currentMode) {
 }
 
 mode.subscribe(updateThemeColors);
-
