@@ -3,44 +3,27 @@ Cette application utilise Svelte comme framework principal. Pour installer le pr
 
 Clonez le dépôt
 
-bash
+- git clone [git url]
+- cd universal-encryption
 
-git clone [git url]
-cd universal-encryption
 Installez les dépendances
-
-bash
-
-npm install
-Cela installera toutes les dépendances nécessaires à l'exécution de l'application.
+- npm install
 
 🔄 Mise à jour des paquets
 Pour maintenir vos paquets à jour :
 
 Vérifiez les mises à jour disponibles
+- npm outdated
 
 
-npm outdated
 Mettez à jour les dépendances
+- npm update
 
-npm update
-Pour mettre à jour manuellement un paquet spécifique
 
-bash
-Copier
-Modifier
-npm install [nom-du-paquet]@latest
-Optionnel : pour vérifier les vulnérabilités de sécurité
-
-npm audit
-npm audit fix
-🖥️ Démarrer l'application en mode développement
 Après l'installation des dépendances, lancez l'application avec :
 
-bash
-Copier
-Modifier
-npm run dev
+- npm run dev
+
 L'application sera accessible sur http://localhost:5000/ (ou un autre port si celui-ci est déjà utilisé).
 
 🛡️ Sécurité et Confidentialité : Comment ça marche ?
