@@ -82,10 +82,13 @@
                 </li>
             </ul>
             <p align="center" style="margin: 4vh;">
-                🔗 Code source disponible ici :
-                <a href="https://github.com/zhd-lab/universal-encryption" target="_blank">
-                    git url
-                </a>
+                <Button
+                    color="primary"
+                    href="https://github.com/zhd-lab/universal-encryption"
+                    target="_blank"
+                >
+                    Lire le code
+                </Button>
             </p>
 
             <Alert color="success">
